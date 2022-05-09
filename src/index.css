@@ -11,3 +11,60 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  /* pointer-events: none; */
+}
+
+.title {
+  height: 5vh;
+  margin: 1vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+ul {
+  padding-left: 5px;
+  list-style-type: none;
+}
+
+.listas {
+  position: absolute;
+  margin: 20px;
+
+  display: flex;
+  gap: 10px;
+
+  z-index: 10;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.globe {
+  overflow: hidden;
+}
+
+.globe canvas {
+  transform: scale(1.1);
+}
+
+.listas div, .integrantes div {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 0px 15px;
+}
+
+.integrantes {
+  position: absolute;
+  z-index: 10;
+  right: 10px;
+}
