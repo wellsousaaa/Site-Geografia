@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+# Países do Mercosul
+Este é um site de geografia que apresenta um globo terrestre interativo em 3D com os países de alguns blocos econômicos da América do Sul, feito com three.js e React.js. O objetivo deste site é fornecer uma maneira fácil e divertida de aprender sobre os países, oceanos e continentes do mundo.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Pré-requisitos
+Antes de começar, você precisará ter o Node.js instalado em sua máquina. Para instalá-lo, visite o site oficial do Node.js e siga as instruções de instalação.
 
-## Available Scripts
+## Como executar o projeto
+- Clone este repositório em sua máquina local.
+- Navegue até o diretório do projeto em seu terminal e execute npm install para - instalar as dependências do projeto.
+- Execute npm start para iniciar o servidor local e abrir o site no seu navegador.
+- Interaja com o globo terrestre para explorar os países e continentes do mundo!
 
-In the project directory, you can run:
+## Como funciona
 
-### `yarn start`
+Este site foi construído com three.js, uma biblioteca JavaScript para criar e exibir gráficos 3D no navegador, e React.js, uma biblioteca JavaScript para criar interfaces de usuário.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+O globo terrestre é renderizado com three.js e é interativo, permitindo que o usuário clique e arraste o mouse para girá-lo em 3D. Além disso, este site utiliza dados de geolocalização para exibir informações sobre países e continentes.
